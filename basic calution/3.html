@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+let baseSalary =    Number((prompt("Enter the base salary in RS:")));
+let hraPercentage = Number((prompt("Enter the HRA percentage:")));
+let daPercentage =  Number((prompt("Enter the DA percentage:")));
+let taPercentage =  Number((prompt("Enter the TA percentage:")));
+
+
+
+let grossSalary = baseSalary - hraPercentage -daPercentage  - taPercentage / 100;
+
+document.write("Gross Salary: " + grossSalary + " RS.");
+    </script>
+</body>
+
+</html>
